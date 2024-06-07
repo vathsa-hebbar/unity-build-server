@@ -1,0 +1,9 @@
+services:
+  webgl:
+    container_name: unity-webgl-demo
+    image: unity-webgl-demo
+    build: .
+    ports:
+      - "8080:80"
+    # volumes:
+    #   - /webgl:/webgl
